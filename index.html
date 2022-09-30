@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./estilo.css ">
+        <title>GV FullStack Web Developer</title>
+    </head>
+
+    <body>
+
+        <!-- seccion inicio-->
+
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>/GV/</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi">SOBRE MI</a></li>
+                                <!-- <li><a href="#proyectos">PROYECTOS</a></li> -->
+                                <li><a href="#portfolio">PROYECTOS</a></li>
+                                <li><a href="#contacto">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+                       
+                        <!--Iconos del menu responsive-->
+
+                     <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                     </div> 
+
+                     <!--Iconos de las redes sociales-->
+                     <div class="redes">
+                        <a href="http://www.linkedin.com/in/vallesgastond"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/vallesgaston"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+541133864248"><i class="fa-brands fa-whatsapp"></i></a>
+                     </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>Soy <span>Gaston Valles</span>, FullStack Web Developer</h2>
+                    <p class="descripcion">Full Stack Developer con formación como Diseñador Web. Experiencia trabajando en NodeJS, React,
+                        Redux, SQL entre otras tecnologías del sector. Desarrolle una App Mobile que nos va a permitir tanto
+                        solicitar como brindar trabajos de oficio en tan sólo unos minutos. Con
+                        pensamiento creativo, resolución de problemas, trabajo en equipo, comunicación y autonomía.</p>
+                    <a href="#portfolio">Portafolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!--seccion sobre mi-->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="./imagenes/fotoperfil3.png" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre mi</p>
+                <h2>Hola, soy <span>Gaston Valles</span></h2>
+                <h3>FullStack Web Developer</h3>
+                <p>Soy un apasionado de la tecnologia y del desarrollo de software, soy un desarrollador Full Stack con experiencia en desarrollo de aplicaciones web, de escritorio y móviles. Me especializo en JavaScript tengo experiencia trabajando con React y React Native desde el frontend, desde el backend con Node.js y express, trabajo con bases de datos relacionales de tipo SQL, me encanta la buena organización, el compañerismo, el respeto ante todo y obviamente aprender nuevas tecnologías!!.</p>
+                <p>Mi punto de interés es seguir creciendo tanto como profesional y como persona. Como información extraescolar me gusta mucho el futbol, videojuegos y la musica! Ahora mismo estoy buscando un puesto sin un enfoque especial ya que tanto el backend como el frontend me gustan mucho.</p>
+                <a href="https://www.dropbox.com/scl/fi/j3mspxy21c5qqgaqjfk0h/CV-Valles-Gaston.docx?dl=0&rlkey=ofkxxs4f4nbn0z330dwr9upl5">Descargar CV</a>
+             </div>
+
+        </section>
+
+        <!--seccion habilidades-->
+        <!-- <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+            <div id="js" class="barra-progreso2"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Base de datos</p>
+            <span class="porcentaje">90%</span>
+    </div>
+    <div class="barra">
+        <div id="bd" class="barra-progreso3"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <div class="info">
+        <p><span class="lista"></span>React</p>
+        <span class="porcentaje">90%</span>
+</div>
+<div class="barra">
+    <div id="react" class="barra-progreso4"></div>
+</div>
+</div>
+</div> -->
+
+        <!--seccion portfolio-->
+        <section id="portfolio">
+            <div class="titulo-seccion">
+            <h3>MIS PROYECTOS</h3>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <!-- <div class="overlay"></div> -->
+                    <div class="titulo">
+                    <h4>App del clima</h4>
+                    </div>
+                    <img src="./imagenes/clima.webp" alt="">
+                    <div class="links">
+                        <a href="https://github.com/vallesgaston" target="_blank">
+                          <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/posts/vallesgastond_javascript-reactjs-css-activity-6940100134957412352-GyWr?utm_source=share&utm_medium=member_desktop">
+                          <i class="fa-solid fa-earth-americas"></i>
+                          
+                        
+                      </div>
+                    <div class="info">
+                    </div>
+
+                </div>
+
+                <div class="proyecto">
+                    <div class="titulo">
+                    <h4>App de Fixy</h4>
+                    </div>
+                    <img src="./imagenes/fixy2.jpeg" alt="">
+                    <div class="links">
+                        <a href="https://github.com/FedericoDib/Fixy-PF.git" target="_blank">
+                          <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://lnkd.in/dAArNmrD">
+                          <i class="fa-solid fa-earth-americas"></i>
+                        </a>
+                      </div>
+                    <div class="info">
+                    </div>
+
+                </div>
+
+                <div class="proyecto">
+                    <!-- <div class="overlay"></div> -->
+                    <div class="titulo">
+                    <h4>App Pokemons</h4>
+                    </div>
+                    <img src="./imagenes/pokeball.png" alt="">
+                    <div class="links">
+                        <a href="https://github.com/vallesgaston/Deploy-Pokemon.git" target="_blank">
+                          <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://deploy-pokemon.vercel.app/">
+                          <i class="fa-solid fa-earth-americas"></i>
+                        </a>
+                      </div>
+                    <div class="info">
+                    </div>
+
+                </div>
+
+                <!-- <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="./imagenes/fixy2.jpeg" alt="">
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>App del Clima</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="./imagenes/poke3.png" alt="">
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>App del Clima</p>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!--seccion contacto-->
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contacto</h3>
+            <div class="contenedor-form">
+                <form action="https://formsubmit.co/valles.gastond@hotmail.com" method="POST">
+                    <div class="fila mitad">
+                        <input type="text" name= "name" placeholder="Nombre Completo" class="input-mitad" autocomplete="off">
+                        <input type="email" email="email" placeholder="Direccion de Email" class="input-mitad" autocomplete="off" >
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema..." class="input-full" autocomplete="off">
+                    </div>
+                    <div class="fila">
+                        <textarea name="name" id="" cols="30" rows="10" placeholder="Tu mensaje ..." class="input-full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+
+        <!--seccion footer-->
+        <footer>
+            <p>Todos los derechos reservados - 2022</p>
+            <div class="redes">
+                <a href="http://www.linkedin.com/in/vallesgastond"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/vallesgaston"><i class="fa-brands fa-github"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+541133864248"><i class="fa-brands fa-whatsapp"></i></a>
+             </div>
+
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
