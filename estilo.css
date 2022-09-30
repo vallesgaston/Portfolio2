@@ -526,7 +526,7 @@ footer a{
 
 /* seccion responsive */
 
-@media screen and(max-width:800px){
+@media screen and (max-width:800px){
     .redes{
         display: none;
     }
@@ -555,9 +555,19 @@ footer a{
         display: block;
     }
 
-    #icono .contenido .presentacion h2{
+  
+    .presentacion h2{
+        font-size: 30px;
+    }
+
+    .presentacion h2.span {
+        font-size: 10px;
+    }
+
+    #inicio .contenido .presentacion h2 span {
         font-size: 40px;
     }
+    
 
     #sobremi {
         padding: 50px 0;
@@ -567,11 +577,14 @@ footer a{
     #sobremi .contenedor-foto{
         max-width: 200px;
         margin:auto;
+        justify-content: center;
         
     }
 
     #sobremi .contenedor-foto img{
-        padding: 80px;
+        padding: 20px;
+        justify-content: center;
+        margin-left: -35px;
     }
 
     #sobremi .sobremi .titulo-seccion{
@@ -584,15 +597,42 @@ footer a{
     }
 
     #portfolio {
-        padding: 80px;
+        padding: 10px 40px;
     }
+
+    
 
     #portfolio .fila {
         display: block;
+        margin-block-end: 180px;
+        margin-left: -10px;
     }
 
-    #portfolio .fila .proyecto{
+    /* #portfolio .fila .proyecto{
         margin: 10px auto;
+    
+    } */
+
+    #portfolio .fila .proyecto {
+        width: 250px;
+        background-color: #101e4b;
+        height: 170px;
+        color:#fff;
+        margin: 3em;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    #portfolio .titulo-seccion  {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 30px;
+        text-transform: uppercase;
+        color:#fff;
+        text-decoration: underline;
+        text-decoration-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
     }
 
     #contacto{
