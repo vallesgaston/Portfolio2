@@ -240,8 +240,14 @@ html {
 .contenedor-skills .skill .info{
     display: flex;
     justify-content: space-between;
+    margin-left: 250px;
 
 }
+/* .contenedor-skills .skill .info .tech {
+display: flex;
+justify-content: space-around;
+align-items: center;
+} */
 
 .contenedor-skills .skill .lista{
     display: inline-block;
@@ -259,7 +265,7 @@ html {
 }
 /*esto se aplicara mediante js para lograr animacion */
 
-.contenedor-skills .skill .barra .barra-progreso1{
+/* .contenedor-skills .skill .barra .barra-progreso1{
     background-color: #fff;
     width: 95%;
     height: 6px;
@@ -285,7 +291,7 @@ html {
     width: 85%;
     height: 6px;
     animation: progreso4 2s forwards;
-}
+} */
 
 /*creamos la animaciones de la barra */
 
@@ -561,12 +567,21 @@ footer a{
     }
 
     .presentacion h2.span {
-        font-size: 10px;
+        font-size: 80px;
     }
 
     #inicio .contenido .presentacion h2 span {
-        font-size: 40px;
+        font-size: 30px;
     }
+
+    #inicio .contenido .presentacion .descripcion{
+        font-size: 19px;
+    }
+
+    #inicio .contenido .presentacion a{
+        margin-bottom: 35px;
+        font-size: 30px;
+       }
     
 
     #sobremi {
@@ -596,6 +611,22 @@ footer a{
         text-align: center;
     }
 
+    #sobremi .sobremi a{
+        margin-left: 75px;
+
+    }
+
+    #sobremi .sobremi h3 {
+        margin-left: 50px;
+    }
+
+    .contenedor-skills .skill .info{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 130px;
+    
+    }
+
     #portfolio {
         padding: 10px 40px;
     }
@@ -604,8 +635,8 @@ footer a{
 
     #portfolio .fila {
         display: block;
-        margin-block-end: 180px;
-        margin-left: -10px;
+        margin-block-end: 250px;
+        margin-left: -20px;
     }
 
     /* #portfolio .fila .proyecto{
@@ -649,6 +680,13 @@ footer a{
     #contacto .contendeor-form .mitad input{
         width: 100%;
         margin-bottom: 15px;
+    }
+
+    footer{
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px 10;
     }
 
 
