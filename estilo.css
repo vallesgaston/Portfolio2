@@ -97,7 +97,7 @@ html {
 
 
 #inicio .contenido .presentacion {
-    font-size: 55px;
+    font-size: 35px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -408,7 +408,7 @@ align-items: center;
 #portfolio .fila .proyecto {
     width: 350px;
     background-color: #101e4b;
-    height: 400px;
+    height: 350px;
     color:#fff;
     margin: 3em;
     justify-content: space-between;
