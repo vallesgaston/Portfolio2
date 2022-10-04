@@ -647,7 +647,7 @@ footer a{
     .contenedor-skills .skill .info{
         display: flex;
         justify-content: space-between;
-        margin-left: 10px;
+        margin-left: 2px;
     
     }
 
