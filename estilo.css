@@ -462,6 +462,8 @@ align-items: center;
     color: #fff;
   text-decoration: none;
   font-size: 30px;
+  
+  
 }
 
 #portfolio .fila .proyecto .links a:hover{
@@ -661,8 +663,9 @@ footer a{
 
     #portfolio .fila {
         display: block;
-        margin-block-end: 250px;
+        margin-block-end: 350px;
         margin-left: -20px;
+        
     }
 
     /* #portfolio .fila .proyecto{
@@ -690,6 +693,7 @@ footer a{
         text-decoration-color: #d3d3d3;
         display: flex;
         justify-content: center;
+        
     }
 
     #contacto{
