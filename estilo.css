@@ -346,7 +346,7 @@ html {
 }
 
 .portfolio {
-  padding: 10%;
+  padding: 20%;
   background-color: #f7f7fa;
   /* min-height: 100vh; */
   padding: 100px 15px;
@@ -379,7 +379,7 @@ html {
 }
 
 .completo {
-  margin-top: -9%;
+  margin-top: -2%;
 }
 
 .portafolio-item:hover .portafolio-text {
