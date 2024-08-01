@@ -89,7 +89,7 @@ html {
 
 #inicio .contenido .presentacion .bienvenida {
   font-size: 26px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -98,6 +98,11 @@ html {
   font-size: 35px;
   margin-bottom: 25px;
   text-align: center;
+}
+
+#inicio .contenido .presentacion h2 {
+  padding: 0;
+  margin-bottom: 0;
 }
 
 #inicio .contenido .presentacion h2 span {
@@ -1156,6 +1161,18 @@ footer a {
     .body1 {
       padding: 60px 0;
       height: 70vh;
+    }
+
+    #inicio .contenido .presentacion {
+      margin-top: 45px;
+    }
+
+    .right {
+      padding: 0;
+    }
+
+    .container {
+      padding: 0;
     }
 
     .titulo1 {
