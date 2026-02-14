@@ -129,7 +129,8 @@ html {
   transition: 0.5s;
   cursor: pointer;
   font-size: 30px;
-}
+}  
+/* sisi */
 
 #inicio .contenido .presentacion a:hover {
   background-color: aqua;
