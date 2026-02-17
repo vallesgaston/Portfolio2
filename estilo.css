@@ -17,7 +17,7 @@ html {
     url(./imagenes/fondopc.webp);
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #inicio .contenido header {
@@ -79,13 +79,15 @@ html {
 
 #inicio .contenido .presentacion {
   max-width: 1000px;
-  height: 100vh;
+  height: auto;
   margin: auto;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 5% !important;
+  /* padding-bottom: 6%; */
 }
 
 #inicio .contenido .presentacion .bienvenida {
@@ -264,7 +266,7 @@ html {
 
 .contenedor-skills .skill .info {
   font-family: "Arial";
-  margin-top: 0;
+  margin-top: 20px;
   padding: 18px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -273,20 +275,19 @@ html {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   transition: all 0.26s;
   box-shadow: 5px 2px 25px 0px rgb(233, 78, 78);
   overflow: hidden;
   flex: 0 0 200px;
-  min-height: 160px;
 }
 .contenedor-skills .skill .info img {
   width: 80px;
   height: 80px;
   object-fit: contain;
   display: block;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .contenedor-skills .skill .info p {
   margin-bottom: 5px;
@@ -310,7 +311,7 @@ html {
 
 .contenedor-skills .skill2 .info {
   font-family: "Arial";
-  margin-top: 0;
+  margin-top: 20px;
   padding: 18px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -319,20 +320,19 @@ html {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   transition: all 0.26s;
   box-shadow: 5px 2px 25px 0px rgb(233, 78, 78);
   overflow: hidden;
   flex: 0 0 200px;
-  min-height: 160px;
 }
 .contenedor-skills .skill2 .info img {
   width: 80px;
   height: 80px;
   object-fit: contain;
   display: block;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .contenedor-skills .skill2 .info p {
   margin-bottom: 5px;
