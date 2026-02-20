@@ -1060,8 +1060,13 @@ footer a {
   }
   /*SECCION PORTFOLIO*/
 
-  .porfolio {
-    padding: 60px;
+  .portfolio {
+    padding-top: 30px;
+  }
+
+  .portfolio h3 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
   }
 
   .portafolio-nov {
@@ -1081,10 +1086,9 @@ footer a {
     /* position: relative; */
   }
 
-  .portafolio-conteiner1 {
-    justify-content: center;
-    margin: 1 10px;
-    position: relative;
+  .portafolio-conteiner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .portafolio-item {
@@ -1092,10 +1096,13 @@ footer a {
     overflow: hidden;
     border-radius: 3%;
     box-shadow: 0px 0px 20px 0px black;
-    width: 28%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     max-width: 300px;
+  }
+  .portafolio-item:hover .portafolio-text {
+    transform: translateY(100%); /* mantiene oculta la descripción */
   }
 
   .portafolio-img {
